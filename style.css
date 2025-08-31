@@ -1,0 +1,65 @@
+body {
+  font-family: "Microsoft YaHei", sans-serif;
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.app {
+  width: 100%;
+  max-width: 500px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+#chat-box {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  height: 400px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  background: #fafafa;
+}
+
+.msg {
+  margin: 5px 0;
+  padding: 8px 10px;
+  border-radius: 6px;
+  max-width: 80%;
+}
+
+.user {
+  background: #d1e7ff;
+  align-self: flex-end;
+}
+
+.ai {
+  background: #e2ffe1;
+}
+
+.input-area {
+  display: flex;
+}
+input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+}
+button {
+  margin-left: 8px;
+  padding: 8px 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background: #0056b3;
+}
